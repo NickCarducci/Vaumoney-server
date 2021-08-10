@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  font-size: 15px;
+  cursor: pointer;
+  user-select: none;
+  font-family: "Muli", sans-serif;
+  src: url(./components/Icons/Fonts/Muli-ExtraLight.ttf);
+
+  -webkit-font-smoothing: antialiased;
+}
+.input::placeholder {
+  display: flex;
+  color: grey;
+  z-index: 9999;
+  font-size: 16px;
+}
